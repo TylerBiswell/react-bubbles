@@ -28,10 +28,24 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Explain what a token is used for.
+
+- A token is a string of cryptic text issued by a server to be stored in a client for authentication. Once issued, the token can be read by the server that issued it to identify the user and grant permissions.
+
+- [x] What steps can you take in your web apps to keep your data secure?
+
+- We can use an authentication system and protect certain routes in our app from being accessed by unauthenticated users. Users who don't have the requisite token will be routed to an unprotected page, like a login page. Additionally, we can send an authentication header with our API calls
+
+- [x] Describe how web servers work.
+
+- The physical web server is connected to the internet and stores code for different websites to be shared globally at all times. The software web server "serves" web pages retrieved from code to users upon request. To access a website, computers connect to the internet via the world wide web, located a specific server computer through a URL and domain name, and retrieve requested information and resources from said server.
+
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+ - The POST method can be mapped to Create, the C in CRUD.
+ - The GET method can be mapped to Read, the R in CRUD.
+ - The PUT method can be mapped to Update, the U in CRUD.
+ - The DELETE method can be mapped to Delete, the D in CRUD.
 
 
 ## Project Set Up
